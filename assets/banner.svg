@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="50%" stop-color="#0c1024" />
+      <stop offset="100%" stop-color="#150f28" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9500" />
+      <stop offset="50%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#E11D48" />
+    </linearGradient>
+
+    <linearGradient id="subtitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.15" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05" />
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <!-- Dynamic Glowing Pulse Styles -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(3deg); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-3deg); }
+      }
+      @keyframes pulseLight {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.08); }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -80; }
+      }
+      .floating-wire {
+        animation: floatSlow 7s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .floating-node {
+        animation: floatReverse 8s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .ambient-glow {
+        animation: pulseLight 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .circuit-line {
+        stroke-dasharray: 8 12;
+        animation: dashAnim 4s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Ambient Perspective Grid in Background -->
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Glowing Ambient Background Orbs -->
+  <circle class="ambient-glow" cx="200" cy="100" r="160" fill="url(#accentGlow)" filter="blur(40px)" />
+  <circle class="ambient-glow" cx="1020" cy="280" r="180" fill="url(#accentGlow)" filter="blur(50px)" />
+
+  <!-- Dynamic Animated Background Isometric Wireframe Cubes & Geometry -->
+  <g class="floating-wire" opacity="0.35">
+    <!-- Left Isometric 3D Cube Wireframe -->
+    <path d="M 110,240 L 170,205 L 230,240 L 170,275 Z" fill="none" stroke="#F97316" stroke-width="1.8" />
+    <path d="M 110,240 L 110,310 L 170,345 L 170,275" fill="none" stroke="#F97316" stroke-width="1.8" />
+    <path d="M 230,240 L 230,310 L 170,345" fill="none" stroke="#F97316" stroke-width="1.8" />
+    <line x1="170" y1="205" x2="170" y2="275" stroke="#F97316" stroke-width="1" stroke-dasharray="3 3" />
+    <!-- Center vertex dot -->
+    <circle cx="170" cy="275" r="4" fill="#38BDF8" />
+  </g>
+
+  <g class="floating-node" opacity="0.38">
+    <!-- Right Geometric 3D Mesh / Coordinate System -->
+    <path d="M 1020,110 L 1090,150 L 1020,190 L 950,150 Z" fill="none" stroke="#818CF8" stroke-width="1.8" />
+    <path d="M 950,150 L 950,220 L 1020,260 L 1020,190" fill="none" stroke="#818CF8" stroke-width="1.8" />
+    <path d="M 1090,150 L 1090,220 L 1020,260" fill="none" stroke="#818CF8" stroke-width="1.8" />
+    <circle cx="1020" cy="190" r="4" fill="#F43F5E" />
+    <circle cx="1090" cy="150" r="3.5" fill="#38BDF8" />
+    <circle cx="950" cy="150" r="3.5" fill="#EAB308" />
+    <circle cx="1020" cy="260" r="3.5" fill="#10B981" />
+  </g>
+
+  <!-- Animated Connection Streamlines -->
+  <path class="circuit-line" d="M 50,370 C 250,340 350,390 600,365 C 850,340 980,390 1150,360" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.3" />
+  <path class="circuit-line" d="M 80,60 C 300,100 480,40 700,70 C 920,100 1020,40 1140,75" fill="none" stroke="#f97316" stroke-width="1.2" opacity="0.25" />
+
+  <!-- High-Tech Card Border (Crisp Foreground Layer) -->
+  <rect x="25" y="25" width="1150" height="370" rx="18" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12" />
+
+  <!-- Top Decorative Pill / Category Tag -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="310" height="30" rx="15" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.5" />
+    <circle cx="16" cy="15" r="4.5" fill="#10B981" />
+    <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#C7D2FE" letter-spacing="1">CURATED DEVELOPER DIRECTORY</text>
+  </g>
+
+  <!-- Primary Foreground Titles (Strictly layered on top with bold crisp typography) -->
+  <text x="60" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.5">
+    Awesome 3D Modeling &amp; Blender Automation
+  </text>
+
+  <text x="60" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="url(#subtitleGrad)" letter-spacing="0.2">
+    AI Agent Skills &#x2022; Blender MCP Servers &#x2022; Parametric CAD &#x2022; Headless Python Pipelines
+  </text>
+
+  <text x="60" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#94A3B8" letter-spacing="0.1">
+    A production-grade directory of market-leading SaaS suites and open-source tooling for technical artists &amp; automation engineers.
+  </text>
+
+  <!-- Interactive/Visual Feature Badges across the bottom -->
+  <g transform="translate(60, 280)">
+    <!-- Pill 1: Blender bpy & MCP -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="42" rx="8" fill="#111827" stroke="#374151" stroke-width="1" />
+      <circle cx="20" cy="21" r="5" fill="#EA580C" />
+      <text x="35" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#F3F4F6">Blender bpy + MCP</text>
+    </g>
+
+    <!-- Pill 2: Agent Skills -->
+    <g transform="translate(195, 0)">
+      <rect width="195" height="42" rx="8" fill="#111827" stroke="#374151" stroke-width="1" />
+      <circle cx="20" cy="21" r="5" fill="#38BDF8" />
+      <text x="35" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#F3F4F6">Claude &amp; Cursor Skills</text>
+    </g>
+
+    <!-- Pill 3: Parametric B-Rep CAD -->
+    <g transform="translate(405, 0)">
+      <rect width="190" height="42" rx="8" fill="#111827" stroke="#374151" stroke-width="1" />
+      <circle cx="20" cy="21" r="5" fill="#A855F7" />
+      <text x="35" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#F3F4F6">Parametric B-Rep CAD</text>
+    </g>
+
+    <!-- Pill 4: Headless Python & Mesh -->
+    <g transform="translate(610, 0)">
+      <rect width="215" height="42" rx="8" fill="#111827" stroke="#374151" stroke-width="1" />
+      <circle cx="20" cy="21" r="5" fill="#10B981" />
+      <text x="35" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#F3F4F6">Headless Python Pipelines</text>
+    </g>
+
+    <!-- Pill 5: Cloud & WebGL Modeling -->
+    <g transform="translate(840, 0)">
+      <rect width="230" height="42" rx="8" fill="#111827" stroke="#374151" stroke-width="1" />
+      <circle cx="20" cy="21" r="5" fill="#F43F5E" />
+      <text x="35" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#F3F4F6">Browser 3D &amp; WebGL CAD</text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Timestamp / Info Indicator -->
+  <text x="60" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B" letter-spacing="0.5">
+    &#x26A1; UPDATED FOR 2026 &#x2022; MIT &amp; OPEN-SOURCE ECOSYSTEM
+  </text>
+</svg>

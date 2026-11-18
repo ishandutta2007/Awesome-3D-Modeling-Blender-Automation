@@ -1,245 +1,138 @@
-# Awesome-3D-Modeling-Blender-Automation
+<div align="center">
+
+<a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation">
+  <img src="assets/banner.svg" alt="Awesome 3D Modeling and Blender Automation Ecosystem Banner" width="100%" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Modeling-Blender-Automation?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-3D-Modeling-Blender-Automation?style=social" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🚀 Awesome 3D Modeling & Blender Automation
+
+### 💎 Curated Directory of 3D CAD SaaS Platforms, AI Agent Skills, Blender MCP Bridges & Headless Python Pipelines
+
+</div>
 
-## Top 3D Modeling & Blender Automation Ecosystem
+---
 
+## 📖 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Hosted 3D Platforms](#-saas--hosted-3d-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+  - [🤖 Blender AI Agent Skills & MCP Automation Bridges](#-blender-ai-agent-skills--mcp-automation-bridges)
+  - [📐 Core 3D Modeling Engines, Parametric CAD & Mesh Toolkits](#-core-3d-modeling-engines-parametric-cad--mesh-toolkits)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌐 Sector Overview & Market Dynamics
 
-*Focused on AI Agent Blender Skills, Blender MCP Automation, Browser 3D Modeling, Parametric CAD & Headless Python Pipelines*  
+The global **3D modeling, CAD, and digital content creation software market** is estimated at **$11.2B to $13.8B in 2025–2026**, expanding at an estimated **7.5% to 12.5% CAGR** through 2032 powered by cloud migration, spatial computing (AR/VR/VisionOS), generative AI geometry, and digital twin mandates.
 
-**Last updated: November 2026**
+The sector is **moderately fragmented yet top-heavy**: high-compliance enterprise CAD and architectural modeling remain concentrated among established legacy giants (Autodesk, Dassault Systèmes, PTC, Trimble), while creative 3D design, browser-based WebGL authoring, and AI agent automation remain highly fragmented, opening rapid growth for innovative SaaS startups (Spline, Vectary, Shapr3D) and dominant open-source ecosystems (Blender, FreeCAD, OpenCascade).
 
+---
 
+## 💼 SaaS & Hosted 3D Platforms
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **3D Modeling & Blender Automation**. These tools automate 3D asset creation inside Blender using AI coding agents (Claude Code, Cursor, Codex, Kiro, Gemini CLI), expose Blender's `bpy` API over Model Context Protocol (MCP) servers, and provide browser-based or parametric 3D modeling environments.
+*Ranked by parent company size (annual revenue / enterprise valuation, descending).*
 
+| Platform 🏷️ | Scale / Valuation 🏢 | Pricing (Starting Tier) 💳 | Free Tier & Free Trial Limits 🎁 | Description 📝 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Autodesk Tinkercad](https://tinkercad.com)** | Parent: Autodesk (~$62.8B Market Cap / ~$7.2B Rev) | **$0 / month** (Completely free education/hobbyist suite) | **Free forever without limits**: Full access to 3D design, Codeblocks, Circuits, and unlimited cloud project storage; no commercial usage restrictions. | Beginner-friendly browser CSG solid modeler and visual Codeblocks platform for rapid 3D printing and prototyping. |
+| **[Autodesk Meshmixer](https://meshmixer.com)** | Parent: Autodesk (~$62.8B Market Cap / ~$7.2B Rev) | **$0 / month** (Freeware desktop release) | **Free forever without limits**: Uncapped triangle mesh smoothing, boolean repair, slicing, and tree-support generation tools; no paid upgrade tiers exist. | Industry-standard triangular mesh cleanup, remeshing, hollowing, and 3D-printing preparation desktop suite. |
+| **[Onshape](https://onshape.com)** | Parent: PTC Inc. (~$21.2B Market Cap / ~$2.8B Rev) | **$1,250 / user / year** (Standard Tier) | **Free Forever (Public Workspace)**: Unlimited public documents and assemblies; **all documents are publicly searchable and copyable** by anyone; strictly non-commercial use only. | Cloud-native parametric mechanical CAD platform featuring real-time multi-user collaboration and FeatureScript automation. |
+| **[SketchUp](https://sketchup.com)** | Parent: Trimble Inc. (~$18.6B Market Cap / ~$3.6B Rev) | **$129 / year** (~$10.75/mo, SketchUp Go) or **$399 / year** (Pro) | **Free Forever (Web Tier)**: Browser-only modeling, 10 GB Trimble Connect cloud storage, strictly personal/non-commercial use; monthly 3D Warehouse download caps apply. | Web and desktop architectural and spatial 3D modeler featuring intuitive push-pull direct modeling and Ruby API automation. |
+| **[Shapr3D](https://shapr3d.com)** | ~$10M–$15M ARR (~$8.7M VC Funded) | **$25 / month** (billed annually at $299/year) or $37.99/mo | **Free Forever (Basic Plan)**: Maximum of **2 active project files** at one time; exports restricted to **low-resolution STL/3MF only**; 20 generative renders per month. | Multi-platform direct parametric CAD suite powered by the Siemens Parasolid engine on iPadOS, macOS, and Windows. |
+| **[Spline](https://spline.design)** | ~$4M–$5.5M ARR ($25M VC Funded) | **$12 / month** (billed annually, Hobby Plan) or $15/month | **Free Forever (Starter)**: Unlimited personal public files and viewers; **web exports carry the Spline watermark**; no monthly generative AI credits. | Collaborative browser WebGL 3D design studio with real-time physics, interactivity, state machines, and React/HTML embeds. |
+| **[Vectary](https://vectary.com)** | ~$3M–$6M ARR (~$14.4M VC Funded) | **$25 / month** (Starter/Pro Tier) | **Free Forever (Starter)**: Maximum **5 active projects**, single workspace seat (1 user), **3,000 monthly AI credits**, and Vectary-branded public embeds. | Browser-based parametric 3D modeling and product staging platform featuring no-code WebGL and Augmented Reality (AR) viewer integration. |
+| **[Blender Studio](https://studio.blender.org/)** | Blender Foundation (~€3.1M / $3.3M Annual Budget) | **€11.50 / month** (~$12.50/mo, Studio Membership) | **Free Forever (Blender ID)**: Free accounts can view trailers and public previews; full open movie source assets, rigs, and production training courses require paid membership. | Official collaborative platform, training hub, and production asset library supporting the continuous development of Blender. |
+| **[SelfCAD](https://selfcad.com)** | Bootstrapped (~$2.5M Estimated ARR) | **$14.99 / month** (Pro Tier) | **10-day full-featured Free Trial**, which then downgrades to a **Free Account**: Basic modeling/mesh drawing included; rendering, animation, and image-to-3D features locked. | All-in-one browser 3D modeling, sculpting, and slicing solution featuring interactive step-by-step CAD tutorials. |
 
+---
 
-**Examples** include Blender Studio, Vectary, Spline, Tinkercad, Clara.io, Onshape, SketchUp, SelfCAD, Meshmixer, Shapr3D, and arjun988/blender-skills (the category leaders). 
+## 🛠️ Open-Source GitHub Projects
 
+*Ranked strictly by GitHub Stargazer Count (descending). Badges link directly to each repository's stargazers page.*
 
+### 🤖 Blender AI Agent Skills & MCP Automation Bridges
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for specialist Blender agent skill packs, headless & live-viewport Blender MCP servers, remote `bpy` automation bridges, parametric open-source CAD, and mesh processing suites — ideal for technical artists, game developers, CAD engineers, and AI automation builders.
+| Project & Repository 📦 | GitHub Stars ⭐ | Primary Tech & Ecosystem ⚙️ | Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** | [![Stars](https://img.shields.io/github/stars/ahujasid/mcp-for-blender?style=social&color=white)](https://github.com/ahujasid/mcp-for-blender/stargazers) | Model Context Protocol, Python, `bpy` | Foundational MCP integration connecting Blender 3D directly to Claude, Cursor, Codex, and VS Code for two-way socket control, execution, and Poly Haven/Sketchfab retrieval. |
+| **[arjun988/blender-skills](https://github.com/arjun988/blender-skills)** | [![Stars](https://img.shields.io/github/stars/arjun988/blender-skills?style=social&color=white)](https://github.com/arjun988/blender-skills/stargazers) | Claude Code, Cursor, Codex, Kiro | Comprehensive suite of 94 production Blender skill packs and 175+ reference files covering blockout, sculpting, retopology, UVs, shaders, and game exports. |
+| **[EL4CTEO/blender-skills](https://github.com/el4cteo/blender-skills)** | [![Stars](https://img.shields.io/github/stars/el4cteo/blender-skills?style=social&color=white)](https://github.com/el4cteo/blender-skills/stargazers) | Blender 5.2/5.3, Gemini CLI, OpenCode | Deterministic Blender agent skills providing 15-point automated QA, PBR material synthesis, bone rigging, animation setups, and KTX2 compression. |
+| **[kevinbadi/blender-skills](https://github.com/kevinbadi/blender-skills)** | [![Stars](https://img.shields.io/github/stars/kevinbadi/blender-skills?style=social&color=white)](https://github.com/kevinbadi/blender-skills/stargazers) | Claude Code, Blender bpy | Streamlined Claude Code automation skills focused on procedural studio lighting, product visualization, and dynamic framing presets. |
+| **[majidmanzarpour/blender-game-skills](https://github.com/majidmanzarpour/blender-game-skills)** | [![Stars](https://img.shields.io/github/stars/majidmanzarpour/blender-game-skills?style=social&color=white)](https://github.com/majidmanzarpour/blender-game-skills/stargazers) | Claude Code, GLB/FBX Game Pipeline | Automated game-asset skill suite transforming 2D concept art turnarounds into dimension-accurate, rigged, game-engine-ready GLB and FBX models. |
+| **[RobLe3/cc-blender-skill](https://github.com/RobLe3/cc-blender-skill)** | [![Stars](https://img.shields.io/github/stars/RobLe3/cc-blender-skill?style=social&color=white)](https://github.com/RobLe3/cc-blender-skill/stargazers) | Claude Code, Python bpy | Minimalist agent skill pack enabling Claude Code to generate scene geometry, set camera matrices, and execute headless renders. |
+| **[ifBars/blender-agent-studio](https://github.com/ifBars/blender-agent-studio)** | [![Stars](https://img.shields.io/github/stars/ifBars/blender-agent-studio?style=social&color=white)](https://github.com/ifBars/blender-agent-studio/stargazers) | Agent Routing, Evaluation, Geometry Nodes | End-to-end multi-agent orchestration framework coordinating procedural geometry generation, simulation, QA validation, and visual refinement. |
+| **[seehiong/blender-mcp-bridge](https://github.com/seehiong/blender-mcp-bridge)** | [![Stars](https://img.shields.io/github/stars/seehiong/blender-mcp-bridge?style=social&color=white)](https://github.com/seehiong/blender-mcp-bridge/stargazers) | FastMCP, Python, Blender 4.x | AI automation bridge exposing 93 discrete MCP tools across modeling, MEP, sculpting, material assignment, and session record/replay. |
+| **[sandraschi/blender-mcp](https://github.com/sandraschi/blender-mcp)** | [![Stars](https://img.shields.io/github/stars/sandraschi/blender-mcp?style=social&color=white)](https://github.com/sandraschi/blender-mcp/stargazers) | Headless Blender, CI/CD, MCP | Live-viewport and background headless MCP server designed for automated batch model processing, Geometry Node orchestration, and CI pipelines. |
+| **[igamenovoer/blender-remote](https://github.com/igamenovoer/blender-remote)** | [![Stars](https://img.shields.io/github/stars/igamenovoer/blender-remote?style=social&color=white)](https://github.com/igamenovoer/blender-remote/stargazers) | JSON-RPC, Python CLI, MCP | Dual background/GUI socket bridge allowing external AI scripts and terminals to control Blender viewport sessions via remote JSON-RPC. |
+| **[BlenderKit/blenderkit_asset_tasks](https://github.com/BlenderKit/blenderkit_asset_tasks)** | [![Stars](https://img.shields.io/github/stars/BlenderKit/blenderkit_asset_tasks?style=social&color=white)](https://github.com/BlenderKit/blenderkit_asset_tasks/stargazers) | Python CLI, Headless Blender | Production CLI scripts automating headless glTF conversion, multi-resolution texture baking, automated thumbnail rendering, and asset validation. |
+| **[lukastomasek/blender-automation-tools](https://github.com/lukastomasek/blender-automation-tools)** | [![Stars](https://img.shields.io/github/stars/lukastomasek/blender-automation-tools?style=social&color=white)](https://github.com/lukastomasek/blender-automation-tools/stargazers) | Blender Add-on, Python | Time-saving pipeline add-on automating transform applications, empty hierarchy pruning, automated collision generation, and batch export. |
 
+---
 
+### 📐 Core 3D Modeling Engines, Parametric CAD & Mesh Toolkits
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+| Project & Repository 📦 | GitHub Stars ⭐ | Primary Tech & Ecosystem ⚙️ | Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![Stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | C++, Python, OpenCascade, Qt | Extensible open-source parametric 3D CAD/BIM modeler featuring modular workbenches, mechanical design, FEM analysis, and complete Python API scripting. |
+| **[blender/blender](https://github.com/blender/blender)** | [![Stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers) | C, C++, Python, OpenGL/Vulkan | Premier open-source 3D creation suite powering modeling, sculpting, Geometry Nodes procedural automation, Cycles/EEVEE rendering, and `bpy` scripting. |
+| **[CesiumGS/cesium](https://github.com/CesiumGS/cesium)** | [![Stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=social&color=white)](https://github.com/CesiumGS/cesium/stargazers) | JavaScript, WebGL, 3D Tiles | Open-source platform and 3D geospatial engine for rendering high-performance dynamic 3D globe visualizations and massive streaming meshes. |
+| **[isl-org/Open3D](https://github.com/isl-org/Open3D)** | [![Stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | C++, Python, CUDA | Modern library for 3D data processing, point-cloud surface reconstruction, ICP registration, mesh decimation, and real-time visualization. |
+| **[openscad/openscad](https://github.com/openscad/openscad)** | [![Stars](https://img.shields.io/github/stars/openscad/openscad?style=social&color=white)](https://github.com/openscad/openscad/stargazers) | C++, OpenCSG, CGAL | Programmers' solid 3D CAD compiler rendering deterministic constructive solid geometry (CSG) models directly from declarative script files. |
+| **[prusa3d/PrusaSlicer](https://github.com/prusa3d/PrusaSlicer)** | [![Stars](https://img.shields.io/github/stars/prusa3d/PrusaSlicer?style=social&color=white)](https://github.com/prusa3d/PrusaSlicer/stargazers) | C++, wxWidgets, Boost | Advanced open-source tool converting 3D models into G-code printing instructions for FDM/SLA 3D printers with automated mesh repair. |
+| **[CadQuery/cadquery](https://github.com/CadQuery/cadquery)** | [![Stars](https://img.shields.io/github/stars/CadQuery/cadquery?style=social&color=white)](https://github.com/CadQuery/cadquery/stargazers) | Python, OpenCascade, OCP | Python parametric B-Rep CAD scripting library based on OpenCascade designed to build complex mechanical engineering models programmatically. |
+| **[cnr-isti-vclab/meshlab](https://github.com/cnr-isti-vclab/meshlab)** | [![Stars](https://img.shields.io/github/stars/cnr-isti-vclab/meshlab?style=social&color=white)](https://github.com/cnr-isti-vclab/meshlab/stargazers) | C++, Qt, VCGlib | Comprehensive open-source software for processing, filtering, inspecting, cleaning, remeshing, and converting massive unstructured 3D triangular meshes. |
+| **[bambulab/BambuStudio](https://github.com/bambulab/BambuStudio)** | [![Stars](https://img.shields.io/github/stars/bambulab/BambuStudio?style=social&color=white)](https://github.com/bambulab/BambuStudio/stargazers) | C++, Python, WebGL | Cutting-edge 3D slicer supporting multi-material printing, cloud sync, direct assembly modeling, and automated mesh orientation. |
+| **[gumyr/build123d](https://github.com/gumyr/build123d)** | [![Stars](https://img.shields.io/github/stars/gumyr/build123d?style=social&color=white)](https://github.com/gumyr/build123d/stargazers) | Python, OpenCascade (OCP) | Modern Python boundary-representation (B-Rep) CAD framework utilizing context managers and clean chaining syntax for mechanical automation. |
+| **[jscad/OpenJSCAD.org](https://github.com/jscad/OpenJSCAD.org)** | [![Stars](https://img.shields.io/github/stars/jscad/OpenJSCAD.org?style=social&color=white)](https://github.com/jscad/OpenJSCAD.org/stargazers) | JavaScript, WebGL | Open-source modular toolkit for programmatic 3D CAD modeling directly in the browser and Node.js using standard JavaScript code. |
+| **[dune3d/dune3d](https://github.com/dune3d/dune3d)** | [![Stars](https://img.shields.io/github/stars/dune3d/dune3d?style=social&color=white)](https://github.com/dune3d/dune3d/stargazers) | C++, OpenCascade, Horizon | Standalone open-source 3D CAD application featuring constraint-based sketch solving and geometric feature modeling on top of OpenCascade. |
+| **[cnr-isti-vclab/PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab)** | [![Stars](https://img.shields.io/github/stars/cnr-isti-vclab/PyMeshLab?style=social&color=white)](https://github.com/cnr-isti-vclab/PyMeshLab/stargazers) | Python, C++ (MeshLab core) | Headless Python bindings for the MeshLab mesh-processing library for batch polygon cleaning, simplification, and normal calculation. |
 
+---
 
+## 🤝 How to Contribute
 
-## Table of Contents
+Contributions are warmly welcomed! Help keep this ecosystem the most comprehensive reference on the web:
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
+3. 📝 **Add your entry** under the relevant section maintaining the tabular format (include specific pricing/limits for SaaS or star badge and accurate tech stack for open-source).
+4. ✅ **Ensure accuracy** with factual descriptions, active links, and correct licensing.
+5. 🚀 **Submit a Pull Request** with a brief summary of the project added.
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+---
 
-- [How to Contribute](#how-to-contribute)
+## 📈 Star History
 
-- [Disclaimer](#disclaimer)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-3D-Modeling-Blender-Automation&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-3D-Modeling-Blender-Automation&type=date&legend=top-left)
 
+---
 
+## 💖 Support & Sponsorship
 
-## SaaS/Hosted Platforms
+If you find this curated directory helpful for your 3D modeling pipelines, AI agent workflows, or CAD development, please consider showing your support:
 
+- ⭐ **Star this repository** to improve discoverability.
+- 🍴 **Fork and share** with technical artists, 3D developers, and AI researchers.
+- ☕ **Buy a coffee or sponsor ongoing maintenance**: Support via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
+Your sponsorship directly funds the tracking and benchmarking of new open-source agent skill packs and 3D automation tools! ✨
 
-- **[Blender Studio (Cloud)](https://studio.blender.org/)**  
+---
 
-  Official cloud production platform, open-movie asset library, and collaborative pipeline hub built around Blender's Geometry Nodes and Python automation workflows.
+## ⚖️ Disclaimer
 
-
-
-- **[Spline](https://spline.design)**  
-
-  Collaborative browser-based 3D design and interactive WebGL studio featuring AI 3D generation, real-time physics, state events, and instant React/HTML exports.
-
-
-
-- **[Vectary](https://vectary.com)**  
-
-  Cloud 3D design and parametric modeling platform providing browser-based sub-object editing, material libraries, and no-code WebGL/AR embeds.
-
-
-
-- **[Onshape](https://onshape.com)**  
-
-  Cloud-native parametric 3D CAD and assembly platform featuring browser collaboration, Git-style version control, and FeatureScript modeling automation.
-
-
-
-- **[Shapr3D](https://shapr3d.com)**  
-
-  Cross-platform parametric B-Rep CAD application built on the Siemens Parasolid kernel with history-based modeling, AI rendering, and cloud sync.
-
-
-
-- **[Autodesk Tinkercad](https://tinkercad.com)**  
-
-  Browser-based constructive solid geometry (CSG) 3D modeling and visual Codeblocks scripting platform designed for rapid prototyping and 3D printing.
-
-
-
-- **[SketchUp (Web & Studio)](https://sketchup.com)**  
-
-  Cloud-connected 3D architectural and spatial modeling suite featuring direct push-pull massing, 3D Warehouse, and Ruby API scripting automation.
-
-
-
-- **[SelfCAD](https://selfcad.com)**  
-
-  Browser-based all-in-one 3D modeling, sculpting, mesh repair, and 3D-printing slicer platform with interactive automated tutorials.
-
-
-
-- **[Clara.io](https://clara.io)**  
-
-  Cloud-based polygonal 3D modeling, animation, and V-Ray web rendering platform running natively in browsers with REST API automation.
-
-
-
-- **[Autodesk Meshmixer](https://meshmixer.com)**  
-
-  Freeware 3D triangle mesh cleanup, hollowing, remeshing, and 3D-print support generation utility (proprietary desktop binary).
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[arjun988/blender-skills](https://github.com/arjun988/blender-skills)**  
-
-  Open-source (`MIT`) collection of 94 specialist Blender skills and 175+ reference files for Cursor, Claude Code, Kiro, and Codex providing an MCP-powered production pipeline from blockout to game-engine export.
-
-
-
-- **[EL4CTEO/blender-skills](https://github.com/el4cteo/blender-skills)**  
-
-  Open-source deterministic Blender 5.2/5.3 workflow skill pack for Claude Code, Codex, OpenCode, Gemini CLI, Copilot, and Cursor covering modeling, UVs, PBR materials, baking, rigging, animation, KTX2 export, and 15-point automated QA.
-
-
-
-- **[ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)**  
-
-  Foundational open-source Model Context Protocol (MCP) integration connecting Blender 3D directly to Claude, Cursor, Codex, and VS Code for two-way socket control, Python execution, viewport inspection, and Poly Haven/Sketchfab/Hunyuan3D asset fetching.
-
-
-
-- **[sandraschi/blender-mcp](https://github.com/sandraschi/blender-mcp)**  
-
-  Open-source headless and live-GUI Blender automation MCP server designed for background batch export, CI/CD pipelines, Geometry Nodes, VSE editing, and viewport-verified agent workflows.
-
-
-
-- **[seehiong/blender-mcp-bridge](https://github.com/seehiong/blender-mcp-bridge)**  
-
-  Open-source AI automation bridge for Blender exposing 93 MCP tools across modeling, sculpting, architecture/MEP, materials, and 3D-print prep alongside a visual record/replay session editor.
-
-
-
-- **[igamenovoer/blender-remote](https://github.com/igamenovoer/blender-remote)**  
-
-  Open-source JSON-RPC Blender add-on, CLI (`blender-remote-cli`), and MCP server enabling external Python clients and LLM agents to control Blender in background or GUI modes simultaneously.
-
-
-
-- **[majidmanzarpour/blender-game-skills](https://github.com/majidmanzarpour/blender-game-skills)**  
-
-  Open-source (`MIT`) Claude Code agent skill suite for game development in Blender that converts concept art and turnarounds into rigged, reference-measured, game-ready GLB/FBX assets.
-
-
-
-- **[ifBars/blender-agent-studio](https://github.com/ifBars/blender-agent-studio)**  
-
-  Open-source end-to-end Blender agent routing and benchmarking framework coordinating modeling, procedural Geometry Nodes, simulation, rigging, validation, and iterative visual refinement.
-
-
-
-- **[Blender](https://github.com)**  
-
-  Flagship open-source (`GPL-2.0+`) 3D creation suite featuring non-destructive Geometry Nodes procedural automation, full `bpy` Python scripting, sculpting, and Cycles/EEVEE rendering.
-
-
-
-- **[FreeCAD](https://github.com)**  
-
-  Parametric open-source (`LGPL-2.0+`) 3D CAD/BIM modeler with modular workbenches for mechanical part design, architecture, surface modeling, FEM simulation, and Python macro automation.
-
-
-
-- **[OpenSCAD](https://github.com)**  
-
-  Open-source (`GPL-2.0+`) script-driven 3D solid CAD compiler that automates deterministic constructive solid geometry (`CSG`) models for engineering and 3D printing.
-
-
-
-- **[CadQuery](https://github.com)**  
-
-  Open-source (`Apache-2.0`) Python parametric B-Rep 3D CAD scripting library built on OpenCascade for automated mechanical design, assemblies, and STEP/STL export.
-
-
-
-- **[build123d (`gumyr/build123d`)](https://github.com)**  
-
-  Modern open-source (`Apache-2.0`) Python boundary-representation (`B-Rep`) CAD modeling framework offering clean context-manager syntax for programmatic 3D part automation.
-
-
-
-- **[MeshLab (`cnr-isti-vclab/meshlab`)](https://github.com)**  
-
-  Open-source (`GPL-3.0`) system for processing, cleaning, remeshing, decimation, hole-filling, and inspecting large unstructured 3D triangular meshes.
-
-
-
-- **[lukastomasek/blender-automation-tools](https://github.com/lukastomasek/blender-automation-tools)**  
-
-  Open-source Blender add-on suite automating repetitive game-asset cleanup tasks including batch transform application, empty hierarchy pruning, collision/decimation generation, and preset GLB/FBX export.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[BlenderKit Asset Tasks (`BlenderKit/blenderkit_asset_tasks`)](https://github.com/BlenderKit/blenderkit_asset_tasks)** for headless Blender Python CLI scripts automating glTF generation, multi-resolution baking, thumbnail rendering, and CI validation.
-
-- **[Impertio-Studio/Blender-Bonsai-ifcOpenshell-Sverchok-Claude-Skill-Package](https://github.com)** for deterministic Claude Code skills generating architectural OpenBIM/IFC models and Sverchok parametric node trees in Blender.
-
-- **[kevinbadi/blender-skills](https://github.com)** and **[RobLe3/cc-blender-skill](https://github.com)** for streamlined Claude Code skill packs focused on 3D product generation, studio lighting, and automated camera framing.
-
-- **[PyMeshLab](https://github.com)** and **[Open3D](https://github.com)** for headless Python batch mesh repair, UV unwrapping, decimation, and point-cloud surface reconstruction.
-
-- **[JSCAD (`jscad/OpenJSCAD.org`)](https://github.com)** and **[Dune 3D](https://github.com)** for open-source browser JavaScript programmatic modeling and parametric constraint-based 3D CAD.
-
-
-
-**Frameworks for building custom systems**: Combine **arjun988/blender-skills** or **EL4CTEO/blender-skills** with **ahujasid/mcp-for-blender** (or **sandraschi/blender-mcp**), **Blender (`bpy` + Geometry Nodes)**, and **FreeCAD / build123d** for end-to-end open-source 3D modeling and Blender automation pipelines.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
+*This list is community-curated for informational, educational, and developer reference purposes. Mention of commercial products or open-source repositories does not constitute formal endorsement. All trademarks, logos, and brand names are the property of their respective owners.*
