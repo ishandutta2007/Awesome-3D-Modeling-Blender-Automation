@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Modeling-Blender-Automation?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Modeling-Blender-Automation?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-3D-Modeling-Blender-Automation?style=social" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-3D-Modeling-Blender-Automation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -66,7 +66,7 @@ The sector is **moderately fragmented yet top-heavy**: high-compliance enterpris
 
 ### 🤖 Blender AI Agent Skills & MCP Automation Bridges
 
-| Project & Repository 📦 | GitHub Stars ⭐ | Primary Tech & Ecosystem ⚙️ | Description 📝 |
+| Project & Repository 📦 | GitHub_Stars ⭐ | Primary Tech & Ecosystem ⚙️ | Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** | [![Stars](https://img.shields.io/github/stars/ahujasid/mcp-for-blender?style=social&color=white)](https://github.com/ahujasid/mcp-for-blender/stargazers) | Model Context Protocol, Python, `bpy` | Foundational MCP integration connecting Blender 3D directly to Claude, Cursor, Codex, and VS Code for two-way socket control, execution, and Poly Haven/Sketchfab retrieval. |
 | **[arjun988/blender-skills](https://github.com/arjun988/blender-skills)** | [![Stars](https://img.shields.io/github/stars/arjun988/blender-skills?style=social&color=white)](https://github.com/arjun988/blender-skills/stargazers) | Claude Code, Cursor, Codex, Kiro | Comprehensive suite of 94 production Blender skill packs and 175+ reference files covering blockout, sculpting, retopology, UVs, shaders, and game exports. |
@@ -85,7 +85,7 @@ The sector is **moderately fragmented yet top-heavy**: high-compliance enterpris
 
 ### 📐 Core 3D Modeling Engines, Parametric CAD & Mesh Toolkits
 
-| Project & Repository 📦 | GitHub Stars ⭐ | Primary Tech & Ecosystem ⚙️ | Description 📝 |
+| Project & Repository 📦 | GitHub_Stars ⭐ | Primary Tech & Ecosystem ⚙️ | Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![Stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | C++, Python, OpenCascade, Qt | Extensible open-source parametric 3D CAD/BIM modeler featuring modular workbenches, mechanical design, FEM analysis, and complete Python API scripting. |
 | **[blender/blender](https://github.com/blender/blender)** | [![Stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers) | C, C++, Python, OpenGL/Vulkan | Premier open-source 3D creation suite powering modeling, sculpting, Geometry Nodes procedural automation, Cycles/EEVEE rendering, and `bpy` scripting. |
@@ -109,7 +109,7 @@ Contributions are warmly welcomed! Help keep this ecosystem the most comprehensi
 
 1. 🍴 **Fork** this repository.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
-3. 📝 **Add your entry** under the relevant section maintaining the tabular format (include specific pricing/limits for SaaS or star badge and accurate tech stack for open-source).
+3. 📝 **Add your entry** under the relevant section maintaining the tabular format (include specific pricing/limits for SaaS or Stars_Badge and accurate tech stack for open-source).
 4. ✅ **Ensure accuracy** with factual descriptions, active links, and correct licensing.
 5. 🚀 **Submit a Pull Request** with a brief summary of the project added.
 
